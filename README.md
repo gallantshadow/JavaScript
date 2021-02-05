@@ -61,5 +61,26 @@ function showMessage() {
   alert( 'Hello everyone!' );
 }
 ```
+### Comparisons
+* == - comparing two values with out type check
+* === - strictly comparing two values with data type check.
 
+
+### Loop
+* **While**
+```js
+   while (condition) {
+   // code
+   // so-called "loop body"
+   }
+```
+* **For**
+```js
+   for (begin; condition; step) {
+   // ... loop body ...
+   }
+```
+
+
+   
 
