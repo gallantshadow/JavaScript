@@ -22,12 +22,12 @@ The most fundamental unit of information in a program is a value. Values are dat
    * Class
    * Error and *many more*.
    
-### Different way to get Output.
+### Different ways to get Output.
 * `console.log("Hello, world!");`
 
 *  `alert("Hellow, world!");`
 
-### Different way to get input.
+### Different ways to get input.
 * *Prompt*
    ```js
    var result= prompt(title,default)
@@ -53,6 +53,13 @@ typeof null;                // "object" Null is not an object its a bug.
 typeof { "a": 1 };          // "object"
 typeof [1,2,3];             // "object"
 typeof function hello(){};  // "function"
+```
+### Function
+Function declaration:
+```js
+function showMessage() {
+  alert( 'Hello everyone!' );
+}
 ```
 
 
